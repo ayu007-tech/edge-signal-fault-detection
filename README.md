@@ -35,3 +35,24 @@ Selected sampling rate = 2000 Hz to reduce aliasing and improve filter performan
 | Impulse noise | Mechanical shocks |
 
 
+
+## System Architecture
+
+The system processes raw sensor signals locally at the edge.
+Signal conditioning and filtering remove noise.
+Key features are extracted and compared against predefined thresholds.
+Only fault alerts are transmitted using MQTT to reduce latency and bandwidth usage.
+
+
+## ENTC Concepts Involved
+
+- Signals and Systems
+- Sampling and Nyquist theorem
+- Noise and filtering
+- Feature extraction
+- Communication latency and reliability
+- Embedded edge processing
+
+
+
+
